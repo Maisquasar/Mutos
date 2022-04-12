@@ -1,0 +1,226 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.556; Version 2009; 64bit' Language: 'fr' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sebou/Documents/Mutos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52728
+Successfully changed project path to: C:/Users/sebou/Documents/Mutos
+C:/Users/sebou/Documents/Mutos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sebou/Documents/Mutos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001263 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (319ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (127ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.097700 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.691700 ms  DeleteObjects: 0.142400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004106 seconds 
+  Import took 0.007775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.947098 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(4b1f0ddfef4b84f45ab7bf2d7ff9a741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(4b1f0ddfef4b84f45ab7bf2d7ff9a741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00292e8fe0d4d0a1eb7ba1bef2b5d483') in 0.001511 seconds 
+  Import took 0.005249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.809007 seconds.
+  path: Assets/Fonts/Cocogoose Pro Italic-trial.ttf
+  artifactKey: Guid(7b71acb428290a544b217ac6a754007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Italic-trial.ttf using Guid(7b71acb428290a544b217ac6a754007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f47b20be1ae8c71be72203ee8a9f3') in 0.082753 seconds 
+  Import took 0.086540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Fonts/Cocogoose Pro-trial.ttf
+  artifactKey: Guid(e814c0eec9908c94da72e7126361bcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro-trial.ttf using Guid(e814c0eec9908c94da72e7126361bcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6211071df7d102bf6ac1afe3a69d32ff') in 0.009215 seconds 
+  Import took 0.012321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Fonts/Cocogoose Pro UltraLight Italic-trial.ttf
+  artifactKey: Guid(f1a9ec7d245145c49886669baa7e7644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro UltraLight Italic-trial.ttf using Guid(f1a9ec7d245145c49886669baa7e7644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3db4aa1e6196140234dd4389ef16d3') in 0.011384 seconds 
+  Import took 0.014267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Fonts/Cocogoose Pro Light Italic-trial.ttf
+  artifactKey: Guid(e395abee6a6024544b26725cdce63e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Light Italic-trial.ttf using Guid(e395abee6a6024544b26725cdce63e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6702fae763643561fe6fdeebc18c0dce') in 0.011870 seconds 
+  Import took 0.014883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Fonts/Cocogoose Pro Thin Italic-trial.ttf
+  artifactKey: Guid(5eea312369ceaa244bb7886f31081af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Thin Italic-trial.ttf using Guid(5eea312369ceaa244bb7886f31081af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcc57eedb04ddbd4a9dc479b1affaea') in 0.009897 seconds 
+  Import took 0.012624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Fonts/Cocogoose Pro Thin-trial.ttf
+  artifactKey: Guid(0d79fe659cab37b4e81da93a96313d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Thin-trial.ttf using Guid(0d79fe659cab37b4e81da93a96313d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1f9e0cff4291a8175842e454eb281b') in 0.009931 seconds 
+  Import took 0.013214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Fonts/Cocogoose Pro Ultralight-trial.ttf
+  artifactKey: Guid(62fa43da924735b4e8a09b6005d87a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Ultralight-trial.ttf using Guid(62fa43da924735b4e8a09b6005d87a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86177534cb0990402359b827025bda20') in 0.008035 seconds 
+  Import took 0.011078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Fonts/Cocogoose Pro Semilight Italic-trial.ttf
+  artifactKey: Guid(dffd61864a541af40990c9390020bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Semilight Italic-trial.ttf using Guid(dffd61864a541af40990c9390020bbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422a020a03dfea29f4d80780391687bd') in 0.008603 seconds 
+  Import took 0.011286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Fonts/Cocogoose Pro Semilight-trial.ttf
+  artifactKey: Guid(da9e13d4276cf8a41af7da9ad05f275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Semilight-trial.ttf using Guid(da9e13d4276cf8a41af7da9ad05f275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eeeea4455454efe5d705e85e017c86') in 0.006977 seconds 
+  Import took 0.009991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Fonts/Cocogoose Pro Light-trial.ttf
+  artifactKey: Guid(bc17059977be23d4ea7840e0f364a253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Cocogoose Pro Light-trial.ttf using Guid(bc17059977be23d4ea7840e0f364a253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c833c6126b30762d948a80748d55f4d') in 0.007115 seconds 
+  Import took 0.009688 seconds .
+
