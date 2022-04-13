@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
     public void NewWord()
     {
         CurrentWord = WordsDatas.GetRandomWordBySize((int)grid.Size.x);
-        grid.SetWord();
         Debug.Log(CurrentWord);
     }
 
@@ -27,7 +26,6 @@ public class GameManager : MonoBehaviour
     {
 
     }
-
 
     IEnumerator WaitForStart()
     {

@@ -16,24 +16,34 @@ public class Case : MonoBehaviour
     void Start()
     {
         grid = FindObjectOfType<Grid>();
+        InputF.characterLimit = 1;
+        InputF.onValidateInput +=
+            delegate (string s, int i, char c) { return char.ToUpper(c); };
     }
 
     public void CheckCharacter()
     {
-        if (InputF.text.Count() > 1)
-            InputF.text.Remove(InputF.text.Count() - 1);
+        if (InputF.text.Count() > 0)
+            if (InputF.text.ToCharArray()[0] == ' ')
+                InputF.text = "";
         if (InputF.text.Count() == 1)
             grid.NewSelect();
     }
 
     public void OnSelect()
     {
-        grid.InputIndex = index;
+        if (index != grid.Size.x - 1)
+            return;
+        if (InputF.text.Count() == 1)
+            grid.CheckWord();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ClearChar()
     {
-        
+        InputF.text = "";
+    }
+
+    public void Update()
+    {
     }
 }
